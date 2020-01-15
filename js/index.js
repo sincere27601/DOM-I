@@ -29,7 +29,7 @@ const siteContent = {
   "contact": {
     "contact-h4" : "Contact",
     "address" : "123 Way 456 Street Somewhere, USA",
-    "phone" : "1 (888) 888-8888",
+    "phone" : "1 (888) 888-8889",
     "email" : "sales@greatidea.io",
   },
   "footer": {
