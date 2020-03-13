@@ -1,19 +1,20 @@
+
+
+// Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
-logo.setAttribute('src', siteContent["nav"]["img-src"]);
+logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 let nav = document.querySelectorAll("a");
 for (let i = 0; i < nav.length; i++) {
   nav[i].textContent = Object.values(siteContent.nav)[i]
   nav[i].style.color = 'green';
-};
-
+}
 
 let navtag = document.querySelector("nav");
 let newChild = document.createElement("a");
 newChild.textContent = "Wealth";
 newChild.style.color = "green";
 navtag.appendChild(newChild);
-
 let newChild2 = document.createElement("a");
 newChild2.textContent = "Butterball!";
 newChild2.style.color = "green";
